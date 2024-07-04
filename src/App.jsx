@@ -1,14 +1,14 @@
-import './styles.scss';
-// import { useState } from 'react';
-import Board from './components/Board';
-function App() {
+import React from "react";
+import "./index.css";
+import Sidebar from "./components/Sidebar/Sidebar";
+import Main from "./components/Main/Main";
+const App = () => {
   return (
-    <div className="app">
-      <div>
-        <Board />
-      </div>
-    </div>
+    <>
+      <Sidebar />
+      <Main />
+    </>
   );
-}
+};
 
 export default App;

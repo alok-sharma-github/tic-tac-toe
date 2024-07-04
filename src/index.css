@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+/* Imports the 'Outfit' font with weight range from 100 to 900 */
+
+* {
+  padding: 0; /* Removes default padding from all elements */
+  margin: 0; /* Removes default margin from all elements */
+  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+  font-family: Outfit; /* Sets the 'Outfit' font for all elements */
+}
+
+#root {
+  min-height: 100vh; /* Ensures the root element takes at least the full height of the viewport */
+  display: flex; /* Enables flexbox layout for the root element */
+}
