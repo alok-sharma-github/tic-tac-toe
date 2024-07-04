@@ -1,1 +1,1 @@
-# React + Vite Tic Toe Game
+# Gemini clone (React + Vite) 
